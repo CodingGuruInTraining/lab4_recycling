@@ -1,4 +1,5 @@
 import org.junit.Test;
+import java.util.ArrayList;
 
 import java.io.ByteArrayInputStream;
 
@@ -77,16 +78,18 @@ public class Test_Q2_Arrays_Recycling_Truck {
     public void testCalculateHouseWithMostRecycling() {
 
         int[] testHouseCrates = { 4, 2, 0, 1, 5} ;  // House with max is house 4
-        assertEquals(4, Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates));
+        int max = 5;
+        assertEquals(4, Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates, max));
 
         int[] testHouseCrates2 = { 4, 2, 10, 1, 5} ;  // House with max is house 2
-        assertEquals(2, Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates2));
+        max = 10;
+        assertEquals(2, Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates2, max));
 
-        int[] testHouseCrates3 = { 4, 7, 0, 7, 5} ;  // 1 and 3 are both max, can pick either
-
-        int calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates3);
-
-        assertTrue(calcMaxHouse == 1 || calcMaxHouse == 3);
+//        int[] testHouseCrates3 = { 4, 7, 0, 7, 5} ;  // 1 and 3 are both max, can pick either
+//        max = 7;
+//        ListArray<Integer> calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates3, max);
+//
+//        assertTrue(calcMaxHouse.get(0) == 1 || calcMaxHouse.get(0) == 3);
 
 
     }
