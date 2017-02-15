@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//GitHub link (program and unit tests):
+// https://github.com/CodingGuruInTraining/lab4_recycling
+
 /*
  *  Lab 4, Question 2
  *  This program prompts User for values of a street's recycling

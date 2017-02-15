@@ -4,7 +4,6 @@
     <list default="true" id="241ee332-3100-491b-b1d3-134038320656" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java" afterPath="$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Test_Q2_Arrays_Recycling_Truck.java" afterPath="$PROJECT_DIR$/src/test/java/Test_Q2_Arrays_Recycling_Truck.java" />
     </list>
     <ignored path="Lab4_Tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="Q2_Arrays_Recycling_Truck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+            <state relative-caret-position="51">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -773,7 +772,7 @@
       <workItem from="1487037863354" duration="986000" />
       <workItem from="1487115081404" duration="2537000" />
       <workItem from="1487179164035" duration="1529000" />
-      <workItem from="1487189243748" duration="2454000" />
+      <workItem from="1487189243748" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="fixed directory issue. earlier worked on revising final function.">
       <created>1487038132353</created>
@@ -803,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487190046560</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added comments.">
+      <created>1487191733661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1487191733661</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -839,7 +845,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17057000" />
+    <option name="totallyTimeSpent" value="17191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1684" height="1026" extended-state="0" />
@@ -899,7 +905,8 @@
     <MESSAGE value="still can't get last test to work" />
     <MESSAGE value="got first failing test to work with Clara's help!" />
     <MESSAGE value="got remaining tests to pass by extracting ListArray data." />
-    <option name="LAST_COMMIT_MESSAGE" value="got remaining tests to pass by extracting ListArray data." />
+    <MESSAGE value="Added comments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1056,8 +1063,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
