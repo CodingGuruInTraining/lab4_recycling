@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241ee332-3100-491b-b1d3-134038320656" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Test_Q2_Arrays_Recycling_Truck.class" afterPath="$PROJECT_DIR$/target/test-classes/Test_Q2_Arrays_Recycling_Truck.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java" afterPath="$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Test_Q2_Arrays_Recycling_Truck.java" afterPath="$PROJECT_DIR$/src/test/java/Test_Q2_Arrays_Recycling_Truck.java" />
     </list>
     <ignored path="Lab4_Tests.iws" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q2_Arrays_Recycling_Truck.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Q2_Arrays_Recycling_Truck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_Q2_Arrays_Recycling_Truck.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_Q2_Arrays_Recycling_Truck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test_Q2_Arrays_Recycling_Truck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
+            <state relative-caret-position="85">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +66,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test_Q2_Arrays_Recycling_Truck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java" />
       </list>
     </option>
   </component>
@@ -773,7 +773,7 @@
       <workItem from="1487037863354" duration="986000" />
       <workItem from="1487115081404" duration="2537000" />
       <workItem from="1487179164035" duration="1529000" />
-      <workItem from="1487189243748" duration="754000" />
+      <workItem from="1487189243748" duration="2454000" />
     </task>
     <task id="LOCAL-00001" summary="fixed directory issue. earlier worked on revising final function.">
       <created>1487038132353</created>
@@ -796,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487183599413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="got remaining tests to pass by extracting ListArray data.">
+      <created>1487190046560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1487190046560</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -832,7 +839,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15357000" />
+    <option name="totallyTimeSpent" value="17057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1684" height="1026" extended-state="0" />
@@ -891,7 +898,8 @@
     <MESSAGE value="fixed directory issue. earlier worked on revising final function." />
     <MESSAGE value="still can't get last test to work" />
     <MESSAGE value="got first failing test to work with Clara's help!" />
-    <option name="LAST_COMMIT_MESSAGE" value="got first failing test to work with Clara's help!" />
+    <MESSAGE value="got remaining tests to pass by extracting ListArray data." />
+    <option name="LAST_COMMIT_MESSAGE" value="got remaining tests to pass by extracting ListArray data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,20 +1044,20 @@
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test_Q2_Arrays_Recycling_Truck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test_Q2_Arrays_Recycling_Truck.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Q2_Arrays_Recycling_Truck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
+        <state relative-caret-position="459">
+          <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

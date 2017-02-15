@@ -12,8 +12,6 @@ public class Test_Q2_Arrays_Recycling_Truck {
 
     @Test
     public  void testGetRecyclingPerHouse() {
-
-
         int[] crateInput = {4, 3, 6, 2};
 
         String input = "";
@@ -38,10 +36,8 @@ public class Test_Q2_Arrays_Recycling_Truck {
 
     @Test
     public void testCalculateTotal() {
-
         int[] testHouseCrates = { 4, 2, 0, 1, 5} ;  // Totals 12
         assertEquals(12, Q2_Arrays_Recycling_Truck.calculateTotal(testHouseCrates));
-
     }
 
     @Test
@@ -68,7 +64,6 @@ public class Test_Q2_Arrays_Recycling_Truck {
         int[] testHouseCrates3 = { 0, 0, 0, 0, 0 } ;  // All zeros
         assertEquals(0, Q2_Arrays_Recycling_Truck.calculateMin(testHouseCrates3));
     }
-
 
     @Test
     public void testCalculateHouseWithMostRecycling() {
