@@ -79,7 +79,9 @@ public class Test_Q2_Arrays_Recycling_Truck {
 
         int[] testHouseCrates = { 4, 2, 0, 1, 5} ;  // House with max is house 4
         int max = 5;
-        assertEquals(4, Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates, max));
+        ArrayList<Integer> calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates, max);
+        int maxHouse = calcMaxHouse.get(calcMaxHouse.size() - 1);
+        assertEquals(4, maxHouse);
 
         int[] testHouseCrates2 = { 4, 2, 10, 1, 5} ;  // House with max is house 2
         max = 10;
@@ -87,7 +89,7 @@ public class Test_Q2_Arrays_Recycling_Truck {
 
         int[] testHouseCrates3 = { 4, 7, 0, 7, 5} ;  // 1 and 3 are both max, can pick either
         max = 7;
-        ArrayList<Integer> calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates3, max);
+        calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates3, max);
         assertTrue(calcMaxHouse.get(0) == 1 || calcMaxHouse.get(0) == 3);
 
 
