@@ -2,7 +2,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import java.io.ByteArrayInputStream;
-import static java.util.Arrays.asList;
+import java.util.Collections;
 
 import static junit.framework.Assert.assertTrue;
 import static junit.framework.TestCase.assertEquals;
@@ -34,7 +34,6 @@ public class Test_Q2_Arrays_Recycling_Truck {
 
         //And reset the System.in input stream when done
         System.setIn(System.in);
-
     }
 
     @Test
@@ -56,12 +55,10 @@ public class Test_Q2_Arrays_Recycling_Truck {
 
         int[] testHouseCrates3 = { 0, 0, 0, 0, 0 } ;  // All zeros
         assertEquals(0, Q2_Arrays_Recycling_Truck.calculateMax(testHouseCrates3));
-
     }
 
     @Test
     public void testCalculateMin() {
-
         int[] testHouseCrates = { 4, 2, 0, 1, 5} ;  // Min is 0
         assertEquals(0, Q2_Arrays_Recycling_Truck.calculateMin(testHouseCrates));
 
@@ -70,13 +67,11 @@ public class Test_Q2_Arrays_Recycling_Truck {
 
         int[] testHouseCrates3 = { 0, 0, 0, 0, 0 } ;  // All zeros
         assertEquals(0, Q2_Arrays_Recycling_Truck.calculateMin(testHouseCrates3));
-
     }
 
 
     @Test
     public void testCalculateHouseWithMostRecycling() {
-
         int[] testHouseCrates = { 4, 2, 0, 1, 5} ;  // House with max is house 4
         int max = 5;
         ArrayList<Integer> calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates, max);
@@ -85,13 +80,14 @@ public class Test_Q2_Arrays_Recycling_Truck {
 
         int[] testHouseCrates2 = { 4, 2, 10, 1, 5} ;  // House with max is house 2
         max = 10;
-        assertEquals(2, Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates2, max));
+        calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates2, max);
+        maxHouse = calcMaxHouse.get(calcMaxHouse.size() - 1);
+        assertEquals(2, maxHouse);
 
-        int[] testHouseCrates3 = { 4, 7, 0, 7, 5} ;  // 1 and 3 are both max, can pick either
+        int[] testHouseCrates3 = { 4, 7, 0, 7, 5} ;  // 1 and 3 are both max
         max = 7;
         calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates3, max);
-        assertTrue(calcMaxHouse.get(0) == 1 || calcMaxHouse.get(0) == 3);
-
-
+        Collections.sort(calcMaxHouse);
+        assertTrue(calcMaxHouse.get(0) == 1 && calcMaxHouse.get(1) == 3);
     }
 }
