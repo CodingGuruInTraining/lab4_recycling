@@ -2,7 +2,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import java.io.ByteArrayInputStream;
-
+import static java.util.Arrays.asList;
 
 import static junit.framework.Assert.assertTrue;
 import static junit.framework.TestCase.assertEquals;
@@ -85,11 +85,10 @@ public class Test_Q2_Arrays_Recycling_Truck {
         max = 10;
         assertEquals(2, Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates2, max));
 
-//        int[] testHouseCrates3 = { 4, 7, 0, 7, 5} ;  // 1 and 3 are both max, can pick either
-//        max = 7;
-//        ListArray<Integer> calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates3, max);
-//
-//        assertTrue(calcMaxHouse.get(0) == 1 || calcMaxHouse.get(0) == 3);
+        int[] testHouseCrates3 = { 4, 7, 0, 7, 5} ;  // 1 and 3 are both max, can pick either
+        max = 7;
+        ArrayList<Integer> calcMaxHouse = Q2_Arrays_Recycling_Truck.calculateHouseWithMostRecycling(testHouseCrates3, max);
+        assertTrue(calcMaxHouse.get(0) == 1 || calcMaxHouse.get(0) == 3);
 
 
     }
